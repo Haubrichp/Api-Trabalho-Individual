@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Email com Imagem</title>
+</head>
+<body>
+    <p>Olá,</p>
+    <p>Bem vindo ao Trabalho do Grupo 7!</p>
+    <p>Lucas Voigt, Lucas Araujo, Julia Nunes, Patrick Haubrich, Felipe Amorim</p>
+
+    <p>
+        <img th:src="@{cid:logoImage}" alt="Imagem do Trabalho do Grupo 7" />
+    </p>
+    
+    <p>Atenciosamente, <br />
+    <em>A equipe do Thymeleaf</em></p>
+</body>
+</html>

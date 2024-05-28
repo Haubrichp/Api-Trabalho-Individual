@@ -1,0 +1,6 @@
+2024-05-28 09:46:52.824310-03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found; SQL statement:
+select * from users [42102-224]
+2024-05-28 09:47:05.958716-03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]USUARIO_ROLES"; expected "UPDATE"; SQL statement:
+USUARIO_ROLES [42001-224]
